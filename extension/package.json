@@ -1,0 +1,16 @@
+{
+  "name": "jobtool-extension",
+  "version": "1.0.0",
+  "description": "Chrome extension for JobTool to capture job details",
+  "main": "background.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "chrome-extension",
+    "job-application",
+    "scraper"
+  ],
+  "author": "",
+  "license": "MIT"
+}

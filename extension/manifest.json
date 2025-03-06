@@ -1,0 +1,21 @@
+{
+    "manifest_version": 3,
+    "name": "JobTool Extension",
+    "version": "1.0",
+    "description": "Capture job details for JobTool",
+    "permissions": ["contextMenus", "activeTab", "nativeMessaging"],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "content_scripts": [
+      {
+        "matches": ["*://*.jobstreet.com/*", "*://*.linkedin.com/*"],
+        "js": ["content.js"]
+      }
+    ],
+    "icons": {
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    }
+  }
